@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    place-items: center;
+    font: 900 7vmax/0.75 system-ui;
+  }
+  .lista{
+    list-style: none;
+    padding: 0px;
+  }
+  
+  
+  li{
+    color: #90caf9;
+    position: relative;
+    transition: .3s;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  li:hover{
+    color: #1976d2;
+    scale: 1.5 1.3;
+    z-index: 3;
+    text-shadow: 0 0 20px white;
+  }
